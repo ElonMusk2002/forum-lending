@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Forum</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+
+      <header id="header" class="header box">
+        <div class="container">
+          <div class="header_inner">
+            <div class="logo_text">
+              <p class="logo__text">Официальный форум школы №24</p>
+            </div>
+            <div class="header__link">
+              <a class="header_link right "  href="#LogIn" >Войти</a>
+              <a class="header_link "  href="#SignUp">Зарегистрироваться</a>
+            </div>
+          </div>
+        </div>    
+      </header>
+      <main>
+        <div id="LogIn" class="popup">
+          <a href="#header" class="popup__area"></a>
+          <div class="popup__content" id="formContent" >
+             <a class="hide" href="#header">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+             </a>
+            <a  class="active" href="#">Войти</a>
+            <form>
+              <input type="text" class="login" id="login" name="Login" placeholder="Логин">
+              <input type="text" id="password"  name="Пароль" placeholder="Пароль">
+              <input type="submit"  value="Войти">
+            </form>
+            <div id="formFooter">
+              <a class="underlineHover" href="#">Забыли пароль?</a>
+            </div>  
+          </div>
+        </div>
+        <div id="SignUp" class="popup">
+          <a href="#header" class="popup__area"></a>
+          <div class="popup__content" id="formContent" >
+             <a class="hide" href="#header">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+             </a>
+            <a  class="active" href="#">Зарегистрироваться</a>
+            <form>
+              <input type="text" id="login" name="Login" placeholder="Придумай логин">
+              <input type="text" id="password"  name="password" placeholder="Создай пароль">
+              <input type="submit" class="signUpButton"  value="Зарегистрироваться">
+            </form> 
+          </div>
+        </div>
+        <div class="introduction">
+          <div class="container">
+            <div class="intro">
+              <div class="intro__text">
+                <h1 class="intro_title">
+                  Начни обучаться и общаться прямо сейчас!
+                </h1>
+                <p class="intro_subtitle">
+                  Форум предназначен для общения на разные темы. Можно задавать вопросы, которые вы так давно хотели спросить о нашей школе и получить на него ответ! Скоре посмотри, что ты не знал о нашей школе!
+              </div>
+              
+              <div class="intro__img">
+                <img src="images/cap.png" alt="" class="intro-img">
+              </div>
+            </div>
+          </div>
+        </div>
+          
+            <div class="container">
+              <div class="main_info">
+              <h2 class="h2">
+                Как пользоваться? 
+              </h2>
+              <div class="main-info">
+                <img src="images/setting.png" alt="" class="main__img">
+                <p class="main_subtitle">
+                 После того, как вы вошли или зарегистрировались вы попадете на форум школы №24. Можно задавать вопросы, общаться и читать интересные обсуждения. Простой и минималистичный дизайн позволит вам с легкостью общаться и ориентироваться по форуму. Стало интересно? Регистрируйся!
+                </p>
+              </div>
+              <a href="#SignUp" class="button">Начать!</a>
+            </div>
+          </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-info">
+            <p class="footer__text">
+              Сайт разработан в ознакомительных и развелкательных целям для школы г. Вологды №24. Сайт разработан учеником школы №24 Дмитриевом Ярославом для поддержки общения учеников на единой платформе и сближения. После регистрации рекомендуем к прочтению правил поведения на форуме. Все права защищены.
+            </p>
+            <p class="footer__text-2">
+              Также рекомендуем подписаться на соц. сети школы и владельца форума:
+            </p>
+            <div class="icon-media">
+              <div class="icons">
+                <a href="https://vk.com/school_24_vologda" class="link-media">
+                  <img src="https://img.icons8.com/color/48/null/vk-com.png"/>
+                </a>
+                <a href="https://t.me/ElonM2002" class="link-media">
+                  <img src="https://img.icons8.com/color/48/null/telegram-app--v1.png"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="main.js"></script>
+</body>
+</html>
